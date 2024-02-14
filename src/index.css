@@ -1,4 +1,16 @@
-:root {
+.project-image {
+  width: 15rem;
+}
+
+.projects-section {
+  /* border-style: solid; */
+  /* border-color: red; */
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -70,4 +82,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

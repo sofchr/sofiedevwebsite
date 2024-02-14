@@ -5,7 +5,7 @@ function Portfolio() {
   return (
     <>
       <div className="portfolio-header">
-        <h1 className="header">Apps I've Built</h1>
+        <h1 className="header">Previous Projects</h1>
         <p className="portfolio-description">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
           facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
