@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { SocialIcon } from "react-social-icons";
 
 function Contact() {
   const form = useRef();
@@ -24,17 +25,21 @@ function Contact() {
   return (
     <div className="contact-content">
       <div className="contact-section">
+        Send me an email!
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <label>Your Name:</label>
-          <input type="text" name="from_name" />
+          <input className="input" type="text" name="from_name" />
           <label>Your Email Address:</label>
-          <input type="email" name="user_email" />
-          <label>Message:</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
+          <input className="input" type="email" name="user_email" />
+          <label>Your Message:</label>
+          <textarea className="input" name="message" />
+          <input className="contact-button" type="submit" value="Send" />
         </form>
       </div>
-      <div className="contact-section">LinkedIn and GitHub</div>
+      <div className="contact-icons">
+        <SocialIcon url="https://linkedin.com/in/sof-christensen" />
+        <SocialIcon url="https://github.com/sofchr" />
+      </div>
     </div>
   );
 }
