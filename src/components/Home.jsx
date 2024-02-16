@@ -10,7 +10,7 @@ function Home() {
         <div className="homepage-block">
           <h1>Sofie Christensen</h1>
           <h2>Software Engineer</h2>
-          <h3>Researcher, Musician</h3>
+          <h3>Researcher | Musician</h3>
         </div>
       </div>
     </>

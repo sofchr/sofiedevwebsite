@@ -1,8 +1,13 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { SocialIcon } from "react-social-icons";
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    from_name: "",
+    user_email: "",
+    message: "",
+  });
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -15,11 +20,24 @@ function Contact() {
       .then(
         () => {
           console.log("SUCCESS!");
+          setFormData({
+            from_name: "",
+            user_email: "",
+            message: ",",
+          });
         },
         (error) => {
           console.log("FAILED...", error.text);
         }
       );
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
   };
 
   return (
@@ -28,11 +46,31 @@ function Contact() {
         Send me an email!
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <label>Your Name:</label>
-          <input className="input" type="text" name="from_name" />
+          <input
+            className="input"
+            type="text"
+            name="from_name"
+            placeholder="Name"
+            value={formData.from_name}
+            onChange={handleChange}
+          />
           <label>Your Email Address:</label>
-          <input className="input" type="email" name="user_email" />
+          <input
+            className="input"
+            type="email"
+            name="user_email"
+            placeholder="Email"
+            value={formData.user_email}
+            onChange={handleChange}
+          />
           <label>Your Message:</label>
-          <textarea className="input" name="message" />
+          <textarea
+            className="message-input"
+            name="message"
+            placeholder="Message"
+            value={formData.message}
+            onChange={handleChange}
+          />
           <input className="contact-button" type="submit" value="Send" />
         </form>
       </div>

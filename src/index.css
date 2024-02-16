@@ -42,8 +42,13 @@ body {
   font-style: normal;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   color: #44344f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .headshot {
@@ -51,7 +56,7 @@ h1 {
   border-color: #c2f970;
   border-style: solid;
   border-width: 1rem;
-  width: 30%;
+  width: 25%;
 }
 
 .contact-section {
@@ -76,8 +81,16 @@ h1 {
   align-items: center;
 }
 
-.input {}
+.message-input {
+  height: 10rem;
+}
 
+.about-blurb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25rem;
+}
 
 /*Google Font Styles Below---
 .poppins-thin {
