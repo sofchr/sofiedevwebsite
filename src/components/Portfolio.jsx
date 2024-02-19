@@ -5,12 +5,8 @@ function Portfolio() {
   return (
     <>
       <div className="portfolio-header">
-        <h1 className="header">Previous Projects</h1>
-        <p className="portfolio-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-          facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-          fuga dolore.
-        </p>
+        <h1 className="header">Portfolio</h1>
+        <h2 className="portfolio-description">Web Development Projects</h2>
       </div>
       <div className="projects-section">
         {projects.map((project) => (
