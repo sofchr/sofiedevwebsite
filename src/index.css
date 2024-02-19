@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   /* border-style: solid; */
   /* border-color: white; */
   color: white;
@@ -40,7 +40,8 @@
   text-decoration: none;
   border-style: solid;
   border-color: black;
-  padding: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 #project-individual a {
@@ -62,10 +63,18 @@
 .projects-section {
   /* border-style: solid; */
   /* border-color: red; */
-  display: grid;
+  /* display: grid;
   grid-column-gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  margin-bottom: 10rem;
+  margin-bottom: 10rem; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 0.25rem;
+  width: 100%;
+  grid-auto-rows: 1fr;
+
+
 }
 
 body {
@@ -104,10 +113,6 @@ p {
   border-style: solid;
   border-width: 1rem;
   width: 25%;
-}
-
-.contact-section {
-  margin: 2rem;
 }
 
 .input {
@@ -152,8 +157,16 @@ p {
   align-items: center;
 }
 
+
 .contact-icons {
-  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+  margin-top: 1rem;
+}
+
+.icon {
+  padding: 2rem;
 }
 
 .about-blurb {

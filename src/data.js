@@ -23,14 +23,14 @@ export const projects = [
         image: "src/assets/puppybowl_preview.png",
         link: "https://github.com/sofchr/Unit2.PuppyBowl.Core.Starter",
     },
-    {
-        title: "Password Generator",
-        subtitle: "Python",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-4.gif",
-        link: "https://github.com/sofchr/password-generator",
-    },
+    // {
+    //     title: "Password Generator",
+    //     subtitle: "Python",
+    //     description:
+    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    //     image: "./project-4.gif",
+    //     link: "https://github.com/sofchr/password-generator",
+    // },
 ],
     research = [{
         title: "Making Care Pop",

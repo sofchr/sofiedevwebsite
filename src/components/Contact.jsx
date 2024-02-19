@@ -75,8 +75,12 @@ function Contact() {
         </form>
       </div>
       <div className="contact-icons">
-        <SocialIcon url="https://linkedin.com/in/sof-christensen" />
-        <SocialIcon url="https://github.com/sofchr" />
+        <div className="icon">
+          <SocialIcon url="https://linkedin.com/in/sof-christensen" />
+        </div>
+        <div className="icon">
+          <SocialIcon url="https://github.com/sofchr" />
+        </div>
       </div>
     </div>
   );
