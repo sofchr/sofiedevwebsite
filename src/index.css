@@ -9,7 +9,6 @@
 
 }
 
-
 #navbar-section a {
   color: inherit;
   text-decoration: none;
@@ -23,15 +22,19 @@
   text-decoration: underline;
 }
 
+.name {
+  font-size: 3rem;
+}
+
 .project-image {
   width: 15rem;
 }
 
 
-.project-individual img:hover {
+/* .project-individual img:hover {
   opacity: 0.5;
   transition: 0.5s ease;
-}
+} */
 
 .project-individual {
   text-decoration: none;
@@ -43,6 +46,7 @@
 #project-individual a {
   color: inherit;
   text-decoration: none;
+  opacity: 1.0;
 }
 
 #project-individual a:visited {
@@ -51,6 +55,8 @@
 
 #project-individual a:hover {
   text-decoration: underline;
+  opacity: 0.5;
+  transition: 0.5s ease-in;
 }
 
 .projects-section {
@@ -59,6 +65,7 @@
   display: grid;
   grid-column-gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 10rem;
 }
 
 body {
@@ -103,16 +110,40 @@ p {
   margin: 2rem;
 }
 
+.input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message-input {
+  height: 10rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
 .contact-form {
   display: flex;
   flex-direction: column;
   width: 30rem;
+  margin: 2rem;
+  background-color: #c9d5fc;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  ;
+  border-radius: 10%;
 }
 
 .contact-button {
-  background-color: #c2f970;
+  /* background-color: #c2f970; */
+  background-color: #ade060;
   margin: 1rem;
-
+  padding: 0.25rem;
+  border-radius: 5px;
 }
 
 .contact-content {
@@ -121,15 +152,30 @@ p {
   align-items: center;
 }
 
-.message-input {
-  height: 10rem;
+.contact-icons {
+  padding-bottom: 2rem;
 }
 
 .about-blurb {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 25rem;
+  /* width: 40rem; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.about-me-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /*Google Font Styles Below---

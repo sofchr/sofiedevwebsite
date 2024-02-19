@@ -43,7 +43,7 @@ function Contact() {
   return (
     <div className="contact-content">
       <div className="contact-section">
-        Send me an email!
+        <h2>Send me an email!</h2>
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <label>Your Name:</label>
           <input

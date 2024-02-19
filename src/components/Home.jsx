@@ -5,11 +5,11 @@ function Home() {
     <>
       <div className="homepage-content">
         <div className="homepage-block">
-          <img className="headshot" src="src/assets/schristensenheadshot.jpg" />
+          <img className="headshot" src="src/assets/toonheadshot.png" />
         </div>
         <div className="homepage-block">
-          <h1>Sofie Christensen</h1>
-          <h2>Software Engineer</h2>
+          <h1 className="name">Sofie Christensen</h1>
+          <h1>Software Engineer</h1>
           <h3>Researcher | Musician</h3>
         </div>
       </div>
