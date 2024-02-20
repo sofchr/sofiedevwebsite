@@ -31,15 +31,15 @@
 }
 
 
-/* .project-individual img:hover {
+.project-image:hover {
   opacity: 0.5;
   transition: 0.5s ease;
-} */
+}
 
 .project-individual {
   text-decoration: none;
-  border-style: solid;
-  border-color: black;
+  /* border-style: solid; */
+  /* border-color: black; */
   padding: 1rem;
   margin: 1rem;
 }
@@ -77,6 +77,11 @@
 
 }
 
+.resume-link {
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
 body {
   background-color: #98a6d4;
   font-family: "Poppins", sans-serif;
@@ -85,8 +90,8 @@ body {
 }
 
 .header {
-  border-style: solid;
-  border-color: white;
+  /* border-style: solid; */
+  /* border-color: white; */
   padding: 3rem;
 }
 
@@ -189,6 +194,19 @@ p {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+}
+
+#odd-jobs a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#odd-jobs a:visited {
+  color: inherit;
+}
+
+#odd-jobs a:hover {
+  text-decoration: underline;
 }
 
 /*Google Font Styles Below---

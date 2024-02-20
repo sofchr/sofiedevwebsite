@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -10,7 +11,10 @@ function Home() {
         <div className="homepage-block">
           <h1 className="name">Sofie Christensen</h1>
           <h1>Software Engineer</h1>
-          <h3>Researcher | Musician</h3>
+          <h3 className="odd-jobs">
+            {/* <Link to="/Research">Researcher</Link> | Musician */}
+            Researcher | Musician
+          </h3>
         </div>
       </div>
     </>

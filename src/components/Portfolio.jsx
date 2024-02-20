@@ -5,8 +5,8 @@ function Portfolio() {
   return (
     <>
       <div className="portfolio-header">
-        <h1 className="header">Portfolio</h1>
-        <h2 className="portfolio-description">Web Development Projects</h2>
+        <h1 className="header">Web Development Projects</h1>
+        {/* <h2 className="portfolio-description">Web Development Projects</h2> */}
       </div>
       <div className="projects-section">
         {projects.map((project) => (
@@ -26,6 +26,7 @@ function Portfolio() {
           </a>
         ))}
       </div>
+      <div className="resume-link">View Resume</div>
     </>
   );
 }
