@@ -26,7 +26,7 @@ function Portfolio() {
           </a>
         ))}
       </div>
-      <div className="resume-link">View Resume</div>
+      {/* <div className="resume-link">View Resume</div> */}
     </>
   );
 }
