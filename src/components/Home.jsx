@@ -20,7 +20,7 @@ function Home() {
     <>
       <div className="homepage-content">
         <div className="homepage-block">
-          <img className="headshot" src="src/assets/schristensenheadshot.jpg" />
+          <img className="headshot" src="/assets/schristensenheadshot.jpg" />
         </div>
         <div className="homepage-block">
           <h1 className="name">Sofie Christensen</h1>
