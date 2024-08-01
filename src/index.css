@@ -214,6 +214,10 @@ p {
   text-decoration: underline;
 }
 
+.languages {
+  margin-top: 4rem;
+}
+
 /*Google Font Styles Below---
 .poppins-thin {
   font-family: "Poppins", sans-serif;
