@@ -4,7 +4,7 @@ export const projects = [
         subtitle: "PERN Stack | Redux | Google Maps API | Tailwind | Cypress",
         description:
             "aMUSE is a full stack application to enhance the museum-going experience by providing users with a tool to conveniently find, rate, and review museums. Users can also keep a digital journal about their visits to document their visits.",
-        image: "src/assets/amuse_preview.png",
+        image: "/assets/amuse_preview.png",
         link: "https://amuse-jx0a.onrender.com/",
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
         subtitle: "PERN Stack",
         description:
             "This PERN Stack web app serves as a character database for the animated series 'Over the Garden Wall.' Fans can search and sort the characters, and can create a profile in order to post on the forum board.",
-        image: "src/assets/unknown_preview.png",
+        image: "/assets/unknown_preview.png",
         link: "https://welcome-to-the-unknown.onrender.com/",
     },
     {
@@ -20,7 +20,7 @@ export const projects = [
         subtitle: "JavaScript | HTML | CSS",
         description:
             "This app uses Javascript and an external API to create a charming web app for Puppy Bowl. Browse the available players, or add your own!",
-        image: "src/assets/puppybowl_preview.png",
+        image: "/assets/puppybowl_preview.png",
         link: "https://amazing-madeleine-82e3cb.netlify.app/",
     },
     // {
