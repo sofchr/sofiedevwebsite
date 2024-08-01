@@ -10,16 +10,15 @@ function About() {
         auditioning and performing in NYC, and eventually found my way into
         recruiting. When I lost my recruiting job to layoffs, it seemed like
         just the right time to pursure something that I had been considering for
-        a long time- software engineering!
+        a long time- a career in tech!
         <br></br>
         <br></br>I completed the Grace Hopper Program web development
         certification, where I gained experience building full stack web
         applications, primarly in the PERN stack. I love to create efficient
-        solutions to problems, and express my creativity while doing it. I am
-        excited to learn and grow in an engineering role where I can approach
-        new challenges with a musician's mindset—creatively, disciplined in
-        practice, collaborative in spirit, and committed to continuous
-        improvement.
+        solutions to problems and work collaboratively towards an end product,
+        so I am excited to learn and grow in engineering or exciting
+        tech-adjacent roles where I can approach new challenges creatively with
+        a great team!
         <br></br>
         <br></br>
         When I'm not coding, I can still be found singing around NYC, playing
